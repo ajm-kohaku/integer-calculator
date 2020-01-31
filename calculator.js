@@ -31,6 +31,8 @@ resetButton.addEventListener("click", (evt) => {
 submitButton.addEventListener('click', (evt) => {
     evt.preventDefault;
     calcField.value = eval(calcField.value);
+    //todo: update to include precision in the calc
+    //todo: add validation for invalid math
 })
 
 $(".calc-form").submit((e) => {
